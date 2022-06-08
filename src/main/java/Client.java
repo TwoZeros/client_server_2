@@ -6,7 +6,7 @@ public class Client {
 
     public static void main(String[] args) throws IOException {
         // Определяем сокет сервера
-        Socket socket = new Socket("127.0.0.1", 8080);
+        Socket socket = new Socket("netology.homework", 8080);
 
         // Получаем входящий и исходящий потоки информации
         try (BufferedReader in = new BufferedReader(
